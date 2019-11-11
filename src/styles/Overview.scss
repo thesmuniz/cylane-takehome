@@ -1,0 +1,11 @@
+.overview-page {
+  .overview-title {
+    font-weight: 400;
+  }
+
+  .card-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

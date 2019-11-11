@@ -1,0 +1,66 @@
+.card {
+  flex: 0 1 43%;
+  border: 1px solid #d1d5da;
+  padding: 20px;
+  margin-bottom: 20px;
+
+  .card-box {
+    display: flex;
+    flex-direction: column;
+    height: 125px;
+
+    a {
+      text-decoration: none;
+    }
+
+    .card-title {
+      display: flex;
+      font-size: 14px;
+      margin: 0;
+      color: #0366d6;
+      font-weight: bold;
+    }
+
+    .forked {
+      font-size: 12px;
+      color: #586069;
+    }
+
+    .card-description {
+      flex: 1;
+      padding-top: 10px;
+      color: #586069;
+      font-weight: 500;
+      font-size: 12px;
+    }
+
+    .repo-color {
+      position: relative;
+      top: 1px;
+      display: inline-block;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+    }
+
+    .stats {
+      display: flex;
+      padding-top: 20px;
+      font-size: 12px;
+      color: #586069;
+      margin-top: auto;
+
+      path {
+        fill: #586069 !important;
+      }
+
+      .stat {
+        width: 15%;
+
+        .card-stat-alignment {
+          display: flex;
+        }
+      }
+    }
+  }
+}
